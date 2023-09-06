@@ -16,7 +16,9 @@ const ShoppingList = () => {
 
   useEffect(() => {
     const getItems = async (res, req) => {
-      const getItems = await axios.get('http://localhost:8000/product');
+      const getItems = await axios.get(
+        'https://cakeshopecommercemern.onrender.com/product'
+      );
       setItems(getItems.data);
     };
     getItems();

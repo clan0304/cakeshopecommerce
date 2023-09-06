@@ -22,7 +22,7 @@ const ItemDetail = () => {
   useEffect(() => {
     const getItem = async () => {
       const getItem = await axios.get(
-        `http://localhost:8000/product/${itemId}`
+        `https://cakeshopecommercemern.onrender.com/product/${itemId}`
       );
       setItem(getItem.data);
     };
@@ -37,7 +37,7 @@ const ItemDetail = () => {
           <Box flex="1 1 40%" mb="40px">
             <img
               src={
-                `http://localhost:8000/images/${item?.picturePath}` ||
+                `https://cakeshopecommercemern.onrender.com/images/${item?.picturePath}` ||
                 item?.picturePath
               }
               alt={item?.productName}
