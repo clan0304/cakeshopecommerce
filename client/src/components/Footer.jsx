@@ -1,6 +1,6 @@
-import { Box, IconButton, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { shades } from '../theme';
-import InstagramIcon from '@mui/icons-material/Instagram';
+
 const Footer = () => {
   return (
     <Box
@@ -32,9 +32,6 @@ const Footer = () => {
           <Typography color="white" fontSize="20px">
             TaraCake ©2022
           </Typography>
-          <IconButton sx={{ margin: '2rem 0 0 3rem', fontSize: 'large' }}>
-            <InstagramIcon />
-          </IconButton>
         </Box>
       </Box>
     </Box>

@@ -56,7 +56,7 @@ const Form = () => {
 
   const register = async (values, onSubmitProps) => {
     const savedUser = await axios.post(
-      'https://cakeshopecommercemern.onrender.com/auth/register',
+      'https://cakeshopmernstack.onrender.com/auth/register',
       values
     );
 
@@ -69,7 +69,7 @@ const Form = () => {
 
   const login = async (values, onSubmitProps) => {
     const loggedIn = await axios.post(
-      'https://cakeshopecommercemern.onrender.com/auth/login',
+      'https://cakeshopmernstack.onrender.com/auth/login',
       values
     );
     console.log(loggedIn);
