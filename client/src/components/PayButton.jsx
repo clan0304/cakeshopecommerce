@@ -9,7 +9,7 @@ const PayButton = ({ cart, token }) => {
   const dispatch = useDispatch();
   const handleCheckout = () => {
     axios
-      .post(`https://cakeshopmernstack.onrender.com/create-checkout-session`, {
+      .post(`https://cakeshoopecommerce.onrender.com/create-checkout-session`, {
         cart,
       })
       .then((res) => {

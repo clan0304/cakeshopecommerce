@@ -22,7 +22,7 @@ const Item = ({ item }) => {
       >
         <img
           alt={item.productName}
-          src={`https://cakeshopmernstack.onrender.com/images/${item.picturePath}`}
+          src={`https://cakeshoopecommerce.onrender.com/images/${item.picturePath}`}
           width="300px"
           height="400px"
           onClick={() => navigate(`/item/${item._id}`)}

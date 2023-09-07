@@ -61,7 +61,7 @@ const CartMenu = () => {
                       alt={item.productName}
                       width="100px"
                       height="300px"
-                      src={`https://cakeshopmernstack.onrender.com/images/${item.picturePath}`}
+                      src={`https://cakeshoopecommerce.onrender.com/images/${item.picturePath}`}
                     />
                   </Box>
                   <Box flex="1 1 60%">
